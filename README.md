@@ -2,6 +2,7 @@ bootwp
 ======
 
 一个html5的wp主题
+------
 
 Demo地址: <a href="http://shurrik.duapp.com" target="_blank">我是Demo</a>
 
