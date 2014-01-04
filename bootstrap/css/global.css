@@ -1,0 +1,106 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, div, span, img, footer {
+    cursor: default;
+    -webkit-user-drag: none;
+}
+body {
+    background: #e5e5e5 url(../img/background.png);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a {
+    color: #333;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+
+    transition: 500ms;
+    -o-transition: 500ms;
+    -moz-transition: 500ms;
+    -webkit-transition: 500ms;
+}
+a:hover {
+	text-decoration: none;
+    color: #707070;
+    text-shadow: 1px 1px 5px #969696;
+}
+img {
+    max-width: 100%;
+    border-radius: 5px;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+
+    transition: 500ms;
+    -o-transition: 500ms;
+    -moz-transition: 500ms;
+    -webkit-transition: 500ms;
+}
+img:hover {
+    -moz-box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.1),1px 1px 30px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.1),1px 1px 30px 5px rgba(0, 0, 0, 0.2);
+
+    opacity: .8;
+}
+
+pre, code {
+    border-radius: 5px;
+    color: #DE3859;
+    border: 1px solid #ddd;
+    padding: 2px 5px;
+    font-family: Consolas, 'Liberation Mono', Courier, monospace;
+    font-size: 16px;
+}
+pre {
+    padding: 10px;
+}
+pre code {
+    border: 0px;
+    padding: 0px;
+}
+
+/*滚动条伪元素*/
+::-webkit-scrollbar {
+	width: 12px;
+	background: #EDEDED;
+	opacity: .8;	
+	-webkit-transition: all 300ms;
+}
+::-webkit-scrollbar-button {
+	width: 12px;
+	height: 5px;
+	-webkit-transition: all 300ms;
+}
+::-webkit-scrollbar-track {
+	background: #EDEDED;
+	border-radius: 10px;
+	-webkit-transition: all 300ms;
+}
+::-webkit-scrollbar-thumb {
+	background: rgba(0, 181, 173, 0.36);
+	border-radius: 10px;	/*圆角边框*/
+	-webkit-transition: all 300ms;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(0, 181, 173, 0.8);
+	-webkit-transition: all 300ms;
+}
+
+/*for IE*/
+.iescrollbar{
+	scrollbar-track-color: #292929; /*for IE,立体滚动条背景颜色*/
+	scrollbar-face-color: #4d4d4d;  /*立体滚动条的颜色（包括箭头部分的背景色）*/
+	scrollbar-3dlight-color: #4d4d4d; /*立体滚动条上下的颜色*/
+	scrollbar-highlight-color: #4d4d4d; /*滚动条的高亮颜色（左阴影）*/
+	scrollbar-shadow-color: #4d4d4d; /*立体滚动条阴影的颜色*/
+	scrollbar-darkshadow-color: #4d4d4d; /*立体滚动条外阴影的颜色*/
+}
+
+/*footer*/
+footer {
+    text-align: center;
+    color: rgb(136, 136, 136);
+}
+footer p {
+    margin: 5px 0px;
+}
+footer a {
+    color: rgb(136, 136, 136);
+}

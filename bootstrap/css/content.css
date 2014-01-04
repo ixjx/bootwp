@@ -1,0 +1,206 @@
+
+.distance{
+    margin-top:40px;
+}
+
+/* block!!! */
+.block {
+    position: relative;
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+    box-shadow: 0 5px 20px #bbb;	
+    -moz-box-shadow: 0 5px 20px #bbb;
+}
+
+.blue.block, .info.block {
+    background-color: #E6F4F9;
+    color: #4D8796;
+}
+.yellow.block, .warning.block {
+    background-color: #F6F3D5;
+    color: #96904D;
+}
+.green.block, .success.block, .positive.block {
+    background-color: #DEFCD5;
+    color: #52A954;
+}
+.red.block, .error.block, .negative.block {
+    background-color: #F1D7D7;
+    color: #A95252;
+}
+
+.block .title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0;
+}
+.block .title a:hover {
+    text-shadow: 0 8px 2px rgba(0, 0, 0, 0.1),0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.post.block {
+    margin-bottom: 40px;
+}
+.category.block {
+    margin-top: 40px;
+}
+
+/* 每篇文章左上角的时间 */
+.round-date {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    height: 60px;
+    width: 70px;
+    padding-top: 5px;
+    border-radius:100%;
+    -moz-border-radius:100%;
+    -webkit-border-radius:100%;
+
+    color: #fff;
+    background-color: #00B5AD;
+    border-color: #DE3859;
+}
+.round-date .month, .round-date .day {
+    text-align: center;
+    display: block;
+}
+.round-date .day {
+    font-size: 30px;	
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+/* 文章信息 */
+.article-meta {
+    color: #555;
+    font-size: 14px;
+    text-align: center;
+}
+.article-content{
+    text-indent: 25px;
+}
+.article-content a{
+    color:#00B5AD;
+}
+
+/* 文章中 查看更多 链接 */
+.more {
+    text-align: center;
+}
+.more a {
+    color: #fff;
+    background: #D95C5C;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    transition: 500ms;
+    -o-transition: 500ms;
+    -moz-transition: 500ms;
+    -webkit-transition: 500ms;
+}
+.more a:hover {
+    color: #fff;
+    background: #d2322d;
+
+    box-shadow: 0px 0px 10px 3px rgba(241, 37, 31, 0.2);
+    -moz-box-shadow: 0px 0px 10px 3px rgba(241, 37, 31, 0.2);
+}
+
+/* 文章分页列表 */
+.page-navigator {
+    display: inline-block;
+    padding: 0px;
+    border-radius: 5px;
+
+    box-shadow: 0px 5px 20px #bbb;
+    -webkit-box-shadow: 0px 5px 20px #bbb;
+}
+
+.page-navigator a {
+    display: inline-block;
+    padding: 10px;
+    background: #fff;
+}
+.page-navigator a:first-child {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.page-navigator a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.block .comment-list + .page-navigator {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+/* 侧边栏 */
+.side .list {
+    list-style: none;
+}
+.side .item {
+    padding: 5px 0px;
+    display: list-item;
+}
+.side .item a {
+    color: rgba(0, 0, 0, 0.8);
+}
+.side .item a:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.side .animated .item {
+    cursor: pointer;
+    padding: 5px 0px;
+
+    transition: .2s color ease,.2s padding-left ease,.2s background-color ease;
+    -o-transition: .2s color ease,.2s padding-left ease,.2s background-color ease;
+    -moz-transition: .2s color ease,.2s padding-left ease,.2s background-color ease;
+    -webkit-transition: .2s color ease,.2s padding-left ease,.2s background-color ease;
+}
+.side .animated .item:hover {
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0.02);
+    color: rgba(0, 0, 0, 0.7);
+}
+.side .animated .item:hover * {
+    cursor: pointer;
+}
+
+.side .friend .item {
+    padding: 10px 0px;
+    color: #555;
+}
+.side .friend .item:hover img {
+    transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+.side .friend p {
+    margin: 1px;
+}
+.side .friend .header {
+    font-weight: bold;
+}
+
+.side .category .item .label {
+    float: right;
+}
+
+/*标签靠右*/
+.tags{
+    text-align: right;
+}
+
+/*归档页面模版*/
+#archives ul{
+    list-style: none;
+}
