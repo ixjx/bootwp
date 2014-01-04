@@ -5,8 +5,9 @@ bootwp
 
 Demo地址: http://shurrik.duapp.com
 
-这两天比较闲，闲来无事就学着做了这个wordpress主题。
-bootstrap框架+semantic的label模块。
+这两天比较闲，闲来无事就学着做了这个wordpress主题
+
+bootstrap框架+semantic的label模块
 
 部分代码和设计风格来源于<a href="http://www.dandyweng.com" target="_blank">Dandy Weng</a> 和 <a href="http://blog.dandyweng.com" target="_blank">Dandy's Blog</a>
 
