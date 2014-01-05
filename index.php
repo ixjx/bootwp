@@ -25,7 +25,7 @@
 			</div>
 		</div>
 		<div class="col-md-3">
-            <?php get_sidebar();?>testing
+            <?php get_sidebar();?>
         </div>
 	</div>
 </div>
