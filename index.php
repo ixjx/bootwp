@@ -16,8 +16,8 @@
 			   		</div>
 			   	</article>
 				<?php endwhile;?> 
-				<ol class="page-navigator">
-    				<? posts_nav_link(' ','<< 上一页','下一页 >>');?>
+				<ol class="pager">
+    				<li><? posts_nav_link(' ','<< 上一页','下一页 >>');?></li>
    				</ol>
 				<?php else: ?>
 				<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
