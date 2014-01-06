@@ -28,9 +28,10 @@ $(function(){
 	});
 
 	//导航栏active
-	var $item=$("ul.nav li");
-	$item.click(function(){
+	$("ul.nav li").hover(function(){
 		$(this).addClass("active");
+	},function(){
+		$(this).removeClass("active");
 	});
 
 	//sidebar的class  :(在functions.php中解决)
