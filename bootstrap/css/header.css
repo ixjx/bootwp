@@ -142,9 +142,18 @@
     font-weight: bold;
     margin-top: 20px;
 }
-/*#infomation .description span{
-    color: #E5D5BC;
-}*/
+#information .description span{
+    display: inline-block;
+
+    transition:0.5s;
+    -webkit-transition:0.5s;
+}
+#information .description span:hover{
+    transform: translateY(-8px);
+    -o-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    -webkit-transform: translateY(-8px);
+}
 
 @keyframes show-site-title {
     0% {
