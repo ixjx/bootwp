@@ -11,6 +11,7 @@
                 </span>
                 <p class="title"><?php the_title(); ?></p>
                 <p class="article-meta"><em><?php the_time('l, F jS, Y'); ?></em><?php edit_post_link('Edit', ' &#124; ', ''); ?></p>
+                <p class="ui teal ribbon label"><?php the_category(', ');?></p>
                 <div class="article-content">
                     <?php the_content(); ?>
                 </div>
