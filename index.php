@@ -10,7 +10,7 @@
             			<span class="day"><?php the_time('d'); ?></span>
 			   		</span>
 			   		<p class="title"><a href="<?php the_permalink();?>"><?php the_title(); ?></a></p>
-			   		<div class="ui teal ribbon label"><?php the_category(', ');?></div>
+			   		<p class="ui teal ribbon label"><?php the_category(', ');?></p>
 			   		<div class="article-content">
 			   			<?php the_content();?>
 			   		</div>
