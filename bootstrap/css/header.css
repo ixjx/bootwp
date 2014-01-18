@@ -26,7 +26,8 @@
 
 #description {
     background: url(../img/headback.jpg);
-    background-position-y: 50%;
+    background-attachment:fixed;
+    background-position:center;
     background-size: cover;
     height: 400px;
     margin-top: -61px;
