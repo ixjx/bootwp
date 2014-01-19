@@ -12,9 +12,6 @@
 
     <!-- Bootstrap core CSS -->
     <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/bootstrap/js/jquery1.7.2.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/bootstrap/js/bootstrap.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/bootstrap/js/script.js"></script>
     
     <?php wp_head(); ?>
 <script type="text/javascript">
