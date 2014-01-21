@@ -16,7 +16,7 @@
 			   		</div>
 			   	</article>
 				<?php endwhile;?> 
-				<ol class="pager">
+				<ol class="page-navigator">
     				<li><? posts_nav_link(' ','<< 上一页','下一页 >>');?></li>
    				</ol>
 				<?php else: ?>
