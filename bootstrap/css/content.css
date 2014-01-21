@@ -115,8 +115,8 @@
 .page-navigator {
     display: inline-block;
     padding: 0px;
+    list-style:none;
     border-radius: 5px;
-
     box-shadow: 0px 5px 20px #bbb;
     -webkit-box-shadow: 0px 5px 20px #bbb;
 }
