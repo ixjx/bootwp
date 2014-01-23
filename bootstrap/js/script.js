@@ -2,14 +2,14 @@ $(function(){
 	//回到顶部
 	$(window).scroll(function(){
 		if ($(window).scrollTop() > 100) {
-			$("#back-to-top").fadeIn(500);
+			$("#back-to-top").fadeIn(600);
 		}
 		else {
-			$("#back-to-top").fadeOut(500);
+			$("#back-to-top").fadeOut(600);
 		}
 	});
 	$("#back-to-top").click(function(){
-		$("html,body").animate({scrollTop:0},500);
+		$("html,body").animate({scrollTop:0},600);
 
 	});
 	
