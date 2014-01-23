@@ -81,7 +81,7 @@
                 <span>「开源」</span>
                 <span>「自由」</span>
                 <span>「各种宅」</span>
-                <span>「搬砖中...」</span>
+                <span>「喜搬砖」</span>
             </p>
         </div>
     </div>
