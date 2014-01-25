@@ -95,8 +95,8 @@
     margin: auto;
     padding-top: 40px;
     padding-bottom: 40px;
-    font-size:16px;opacity:.98;
-    background: rgba(230, 244, 249, 0.8);
+    font-size:16px;opacity:.9;
+    background: rgba(230, 244, 249, 0.6);
 
     box-shadow: 0 5px 20px #555;
     -moz-box-shadow: 0 5px 20px #555;
@@ -254,6 +254,6 @@
 
 .navbar{
     color: black;
-    background-color: rgba(0,0,0,0.8);   /*for chrome*/
+    background-color: rgba(0,0,0,0.7);   /*for chrome*/
     filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#22000000', endColorstr='#22000000');   /*for IE*/
 }
