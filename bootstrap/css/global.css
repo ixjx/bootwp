@@ -22,7 +22,7 @@ a:hover {
     color: #707070;
     text-shadow: 1px 1px 5px #969696;
 }
-img {
+img,object{
     max-width: 100%;
     border-radius: 5px;
     -webkit-user-drag: none;
