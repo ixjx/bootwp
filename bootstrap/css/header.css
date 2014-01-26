@@ -20,7 +20,7 @@
     margin: 8px;
 }
 #back-to-top:hover #rocket path {
-    fill: rgba(255, 102, 0, 0.76);
+    fill: #00B5AD;
 }
 
 
