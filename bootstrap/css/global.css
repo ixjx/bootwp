@@ -3,8 +3,9 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, div, span, img, footer {
     -webkit-user-drag: none;
 }
 body {
-    background: #e5e5e5 url(../img/background.png);
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #e5e5e5 url(../img/bg.png) fixed;
+    font-family: '微软雅黑', Helvetica, Arial, sans-serif, sans-serif;
+    font-size: 16px;
 }
 
 a {
@@ -22,7 +23,7 @@ a:hover {
     color: #707070;
     text-shadow: 1px 1px 5px #969696;
 }
-img,object{
+img,object {
     max-width: 100%;
     border-radius: 5px;
     -webkit-user-drag: none;
@@ -59,7 +60,7 @@ pre code {
 /*滚动条伪元素*/
 ::-webkit-scrollbar {
 	width: 12px;
-	background: #EDEDED;
+	background: #EFEFEF;
 	opacity: .8;	
 	-webkit-transition: all 300ms;
 }
@@ -69,7 +70,7 @@ pre code {
 	-webkit-transition: all 300ms;
 }
 ::-webkit-scrollbar-track {
-	background: #EDEDED;
+	background: #EFEFEF;
 	border-radius: 10px;
 	-webkit-transition: all 300ms;
 }
@@ -95,6 +96,7 @@ pre code {
 
 /*footer*/
 footer {
+	font-size: 14px;
     text-align: center;
     color: rgb(136, 136, 136);
 }
