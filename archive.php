@@ -10,7 +10,7 @@
                         <span class="day"><?php the_time('d'); ?></span>
                     </span>
                     <p class="title"><a href="<?php the_permalink();?>"><?php the_title(); ?></a></p>
-		    <p class="article-meta"><em><?php the_time('l, F jS, Y'); ?></em><?php edit_post_link('Edit', ' &#124; ', ''); ?></p>
+                     <p class="article-meta"><em><?php the_time('l, F jS, Y'); ?></em><?php edit_post_link('Edit', ' &#124; ', ''); ?></p>
                     <div class="ui teal ribbon label"><?php the_category(', ');?></div>
                 </article>
                 <?php endwhile;?>

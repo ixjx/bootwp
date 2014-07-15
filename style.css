@@ -8,9 +8,9 @@ Version: 1.0
 @import url('bootstrap/css/global.css');
 @import url('bootstrap/css/header.css');
 @import url('bootstrap/css/content.css');
-@import url('bootstrap/css/comments.css');
+/*@import url('bootstrap/css/comments.css');*/
 @import url('bootstrap/css/label.css');
-@import url('bootstrap/css/zocial.css');
+@import url('bootstrap/css/zocial.stripped.css');
 *{
 	margin: 0;
 	padding: 0;

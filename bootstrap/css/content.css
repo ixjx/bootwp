@@ -1,3 +1,4 @@
+
 .distance{
     margin-top:40px;
 }
@@ -81,7 +82,8 @@
     text-align: center;
 }
 .article-content{
-    text-indent: 25px;
+	font-size: 16px !important;
+    /*text-indent: 25px;*/
 }
 .article-content a{
     color:#00B5AD;
@@ -111,11 +113,11 @@
     -moz-box-shadow: 0px 0px 10px 3px rgba(241, 37, 31, 0.2);
 }
 
-/* 文章分页列表 */
+/* 文章分页列表,未完成 */
 .page-navigator {
     display: inline-block;
     padding: 0px;
-    list-style:none;
+    list-style: none;
     border-radius: 5px;
     box-shadow: 0px 5px 20px #bbb;
     -webkit-box-shadow: 0px 5px 20px #bbb;

@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="baidu-site-verification" content="Atd0sz8g7R" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="http://bcs.duapp.com/codeshurrik-123/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="http://bcs.duapp.com/codeshurrik-123/favicon.ico" type="image/x-icon">
 
     <title><?php wp_title('|',1,'right'); ?> <?php bloginfo('name'); ?></title>
 
@@ -15,9 +16,9 @@
     
     <?php wp_head(); ?>
 
-    <!--[if lt IE 9]>
+	<!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  	<![endif]-->
   </head>
 
   <body>
@@ -65,7 +66,7 @@
     <div class="shadow"></div>
     <div class="container">
         <div id="information" class="info block">
-            <img class="avatar img-circle" src="http://shurriklab.duapp.com/img/me.png" />
+            <img class="avatar img-circle" src="http://bcs.duapp.com/codeshurrik-123/shurrik.jpg" />
             <p class="description">
                 <span>「开源」</span>
                 <span>「自由」</span>

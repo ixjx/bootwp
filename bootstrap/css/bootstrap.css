@@ -497,6 +497,7 @@ h6,
 
 p {
   margin: 0 0 10px;
+  letter-spacing: 1px;
 }
 
 .lead {
@@ -677,9 +678,10 @@ abbr[data-original-title] {
 }
 
 blockquote {
+	background-color: #f9f2f4;
   padding: 10px 20px;
   margin: 0 0 20px;
-  border-left: 5px solid #eeeeee;
+  border-left: 5px solid #00B5AD;
 }
 
 blockquote p {

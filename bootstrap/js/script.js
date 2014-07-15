@@ -12,7 +12,6 @@ $(function(){
 		$("html,body").animate({scrollTop:0},600);
 
 	});
-	
 	$("#back-to-top").tooltip();
 
 	//搜索栏动画
@@ -34,11 +33,12 @@ $(function(){
 		$(this).removeClass("active");
 	});
 
-	//sidebar的class  :(在functions.php中解决)
+	//添加sidebar的class  :(在functions.php中解决)
 	$(".side p").siblings().addClass("animated list").children().addClass("item");
-	/*移除有bug的动画(weibo和tag)
+	
+	//移除有bug的动画(weibo和tag)
 	$(".side p:eq(0)").next().removeClass("animated");
-	$(".side p:eq(2)").siblings().children().removeClass("item");*/
-
-
+	$(".side p:eq(2)").siblings().children().removeClass("item");
+	$(".side p:eq(3)").next().removeClass("animated");
+	$(".side p:eq(4)").siblings().removeClass("animated");
 });

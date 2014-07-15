@@ -3,9 +3,10 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, div, span, img, footer {
     -webkit-user-drag: none;
 }
 body {
-    background: #e5e5e5 url(../img/bg.png) fixed;
+    background: #e5e5e5 url(../img/background.png) fixed;
     font-family: '微软雅黑', Helvetica, Arial, sans-serif, sans-serif;
     font-size: 15px;
+    color: black;
 }
 
 a {
@@ -92,6 +93,11 @@ pre code {
 	scrollbar-highlight-color: #4d4d4d; /*滚动条的高亮颜色（左阴影）*/
 	scrollbar-shadow-color: #4d4d4d; /*立体滚动条阴影的颜色*/
 	scrollbar-darkshadow-color: #4d4d4d; /*立体滚动条外阴影的颜色*/
+}
+
+/*duoshuo*/
+.bro{
+	color: #000;
 }
 
 /*footer*/

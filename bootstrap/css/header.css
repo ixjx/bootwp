@@ -20,14 +20,14 @@
     margin: 8px;
 }
 #back-to-top:hover #rocket path {
-    fill: #00B5AD;
+    fill: #00B5AD; /*same as theme*/
 }
 
 
 #description {
     background: url(../img/headback.jpg);
-    background-attachment:fixed;
-    background-position:center;
+  	background-attachment:fixed;
+    background-position:50% 80%;
     background-size: cover;
     height: 400px;
     margin-top: -61px;
@@ -58,7 +58,7 @@
     display: inline-block;
     color: #fff;
     font-size: 50px;
-    text-shadow: 0px 2px 10px #000;
+    text-shadow: 0px 22px 10px #000;
 
     transition: .6s;
     -webkit-transition: .6s;
@@ -70,7 +70,7 @@
 }
 .site-title:hover {
     text-decoration: none;
-    text-shadow: 0px 2px 20px #000;
+    text-shadow: 0px 2px 10px #000;
     transform: translateY(-10px) scale(1.1, 1.1);
     -o-transform: translateY(-10px) scale(1.1, 1.1);
     -ms-transform: translateY(-10px) scale(1.1, 1.1);
@@ -95,7 +95,8 @@
     margin: auto;
     padding-top: 40px;
     padding-bottom: 40px;
-    font-size:16px;opacity:.9;
+    font-size:16px;
+    opacity:.9;
     background: rgba(230, 244, 249, 0.6);
 
     box-shadow: 0 5px 20px #555;
@@ -113,10 +114,10 @@
     height: 100px;
     margin: 0px;
   
-    transition: 500ms;
-    -o-transition: 500ms;
-    -moz-transition: 500ms;
-    -webkit-transition: 500ms;
+    transition: 600ms;
+    -o-transition: 600ms;
+    -moz-transition: 600ms;
+    -webkit-transition: 600ms;
     
     box-shadow: 0px 0px 2px 3px rgba(255, 255, 255, 0.7), 0px 0px 30px 8px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0px 0px 2px 3px rgba(255, 255, 255, 0.7), 0px 0px 30px 8px rgba(0, 0, 0, 0.25);
@@ -125,11 +126,11 @@
     -webkit-filter: grayscale(100%);
 }
 #information  img.avatar:hover {
-    transform: none;
-    -o-transform: none;
-    -ms-transform: none;
-    -moz-transform: none;
-    -webkit-transform: none;
+    transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
 
     box-shadow: 0px 0px 2px 3px rgba(255, 255, 255, 0.7), 0px 0px 30px 8px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0px 0px 2px 3px rgba(255, 255, 255, 0.7), 0px 0px 30px 8px rgba(0, 0, 0, 0.5);
@@ -142,12 +143,14 @@
     font-size: 18px;
     font-weight: bold;
     margin-top: 20px;
+
+    text-shadow: 0px 10px 10px #4D8796;
 }
 #information .description span{
     display: inline-block;
 
-    transition:0.5s;
-    -webkit-transition:0.5s;
+    transition:0.6s;
+    -webkit-transition:0.6s;
 }
 #information .description span:hover{
     transform: translateY(-8px);

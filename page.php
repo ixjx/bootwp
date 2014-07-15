@@ -11,8 +11,21 @@
                     <p><?php _e('Sorry, this page does not exist.'); ?></p>
                     <?php endif; ?>
                 </article>
-                <?php comments_template(); ?>
-            </div>
+                <!-- Duoshuo Comment BEGIN -->
+                <div class="ds-thread"></div>
+                <script type="text/javascript">
+                    var duoshuoQuery = {short_name:"shurrik"};
+                    (function() {
+                        var ds = document.createElement('script');
+                        ds.type = 'text/javascript';ds.async = true;
+                        ds.src = 'http://ixjx.sinaapp.com/git/js/duoshuo.js';
+                        ds.charset = 'UTF-8';
+                        (document.getElementsByTagName('head')[0] 
+                        || document.getElementsByTagName('body')[0]).appendChild(ds);
+                    })();
+                </script>
+                <!-- Duoshuo Comment END -->
+            </div> 
         </div>
         <div class="col-md-3">
             <?php get_sidebar();?>
