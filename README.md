@@ -4,7 +4,7 @@ bootwp
 一个html5的wp主题
 ------
 
-Demo地址: <a href="http://shurrik.duapp.com" target="_blank">我是Demo</a>
+Demo地址: <a href="http://ixjx.sinaapp.com" target="_blank">我是Demo</a>
 
     这两天比较闲，闲来无事就学着做了这个wordpress主题
 
